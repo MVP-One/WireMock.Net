@@ -1,3 +1,17 @@
+# 1.8.11 (11 June 2025)
+- [#1311](https://github.com/wiremock/WireMock.Net/pull/1311) - Bump Testcontainers version to 4.5.0 [feature] contributed by [scrocquesel](https://github.com/scrocquesel)
+- [#1313](https://github.com/wiremock/WireMock.Net/pull/1313) - Update RandomDataGenerator.Net to 1.0.19 [feature] contributed by [StefH](https://github.com/StefH)
+- [#1315](https://github.com/wiremock/WireMock.Net/pull/1315) - Fix for WithTransformer and JsonBody as list [bug] contributed by [StefH](https://github.com/StefH)
+- [#1310](https://github.com/wiremock/WireMock.Net/issues/1310) - Binary compat issue with testcontainers 4.5.0 [bug]
+- [#1312](https://github.com/wiremock/WireMock.Net/issues/1312) - WithTransformer breaks when the response BodyAsJson is a List [bug]
+
+# 1.8.10 (10 June 2025)
+- [#1306](https://github.com/wiremock/WireMock.Net/pull/1306) - Update RequestModelBuilder (add WithHeader) [feature] contributed by [StefH](https://github.com/StefH)
+- [#1308](https://github.com/wiremock/WireMock.Net/pull/1308) - For some projects, change dependency to WireMock.Net.Minimal [feature] contributed by [StefH](https://github.com/StefH)
+- [#1309](https://github.com/wiremock/WireMock.Net/pull/1309) - Update AwesomeAssertions to version 9 [feature] contributed by [StefH](https://github.com/StefH)
+- [#1305](https://github.com/wiremock/WireMock.Net/issues/1305) - AdminApiMappingBuilder do not expose WithHeader for Request [feature]
+- [#1307](https://github.com/wiremock/WireMock.Net/issues/1307) - Update WireMock.Net.AwesomeAssertions to use latest version from AwesomeAssertions [feature]
+
 # 1.8.9 (28 May 2025)
 - [#1303](https://github.com/wiremock/WireMock.Net/pull/1303) - Add option to provide X509Certificate [feature] contributed by [StefH](https://github.com/StefH)
 - [#1302](https://github.com/wiremock/WireMock.Net/issues/1302) - Support In-Memory SSL Certificate [feature]
